@@ -3,102 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Nadia Ibrahim Official</title>
 </head>
 <body>
     <header class="flex-container">
-        <div class="logo"><img src="images/Black Cream Elegant Monogram Initial Name I C Logo .webp" alt="my logo">
+        <div class="logolist">    
+         <div class="logo"><img src="images/Black Cream Elegant Monogram Initial Name I C Logo .webp" alt="my logo" style="width:50px; height:50px">
         </div>
-        <div class="icon"><img src="images/icons8_slide_up@2x.webp" alt="slide up"></div>
-    <nav>
-        <ol>
-            <li>About</li>
-            <li>Expertise</li>
-            <li>Blog</li>
-            <li>Contact</li>
-        </ol>
-    </nav>
+        <nav class="list">
+            <ul class="nobullets">
+                <li>About</li>
+                <li>Expertise</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ol>
+        </nav>
+        </div>
+        <div class="intro">
+            <p>Hello Everyone, I'm</p>
+            <h1>Nadia Ibrahim</h1>
+        </div>
+        <div class="icon"><img src="images/icons8_slide_up@2x.webp" alt="slide up" style="width:40px; height: 40px;"></div>
+   
     </header>
-    <div>
-        <p>Hello Everyone, I'm</p>
-        <h1>Nadia Ibrahim</h1>
-        <img src="images/portfolio pic.webp" alt="my photo">
-    </div>
-    <div class="About Me">
+    <section class="bsansh">
+     <div class="AboutMe">
         <div>
             <h2>About Me</h2>
-            <img src="images/IMG-20240625-WA0009.webp" alt="my photo">
+            <img src="images/IMG-20240625-WA0009.webp" alt="my photo" style="width:250px; height: 200px">
         </div>
-        <div>
+        <div class="skills">
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione dolores aspernatur optio, ipsa odit magnam eveniet, hic similique, eos quas eaque quisquam voluptatibus velit vero. Maiores at sed possimus inventore?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Ratione dolores aspernatur optio, ipsa odit magnam eveniet, <br> hic similique, eos quas eaque quisquam voluptatibus velit vero.<br> Maiores at sed possimus inventore?
             </p>
             <h3>Skills</h3>
-            <ul>
-                <li> UI Design</li>
-                <li>Web Development</li>
-                <li>Search Engine Optimization</li>
-                <li>Graphic Design</li>
-            </ul>
+            <div>
+                <label for="file"> UI Design</label><br>
+                <progress id="file" value="80" max="100"></progress><br>
+                <label for="file">Web Development</label><br>
+                <progress id="file" value="97" max="100"></progress><br>
+                <label for="file">Search Engine Optimization</label><br>
+                <progress id="file" value="85" max="100"></progress><br>
+                <label for="file">Graphic Design</label><br>
+                <progress id="file" value="90" max="100"></progress>
+            </div>
         </div>
-    </div>
-    <div class="Expertise">
-        <h2>Expert In</h2>
-        <div class="logo">Figma<img src="images/icons8_figma_7@2x.webp" alt="figma logo">
+      </div>
+        <h2 id="exprt">Expert In</h2>
+     <div class="Expertise">
+        <div class="logot">Figma<img src="images/icons8_figma_7@2x.webp" alt="figma logo" style="width:50px; height: 50px">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci quos excepturi laborum in perspiciatis ea deleniti sunt illo.</p>
         </div>
-        <div class="logo">Wordpress<img src="images/icons8_wordpress_3@2x.webp" alt="wordpress logo">
+        <div class="logot">Wordpress<img src="images/icons8_wordpress_3@2x.webp" alt="wordpress logo"style="width:50px; height: 50px" >
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem velit maxime libero hic sequi perspiciatis sed sunt veritatis iure.</p>
         </div>
-        <div class="logo">Photoshop<img src="images/icons8_adobe_photoshop@2x.webp" alt="photoshop logo">
+        <div class="logot">Photoshop<img src="images/icons8_adobe_photoshop@2x.webp" alt="photoshop logo" style="width:50px; height: 50px">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ratione velit saepe rem illo aliquid accusamus quod quo quaerat hic.</p>
         </div>
-    </div>
-    <div class="hire me">
+     </div>
+     <div class="hireme">
         <h2>I Make It Awesome</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit numquam veniam ipsa doloribus voluptatum eligendi nam magnam eaque quaerat quas!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Suscipit numquam veniam ipsa doloribus <br> voluptatum eligendi nam magnam eaque quaerat quas!</p>
         <button>Hire Me Today</button>
-    </div>
-    <div>
+     </div>
+     <div>
+        <h2 id="bp">Latests Blog Posts</h2>
         <div class="bposts">
-            <h2>Latests Blog Posts</h2>
-            <div class="bposts 1"> My journey to become a Python expert in 1 year <img src="images/python image.webp" alt="python book">
-                <button>Read Now</button>
+            <div class="bposts1"> <img src="images/python image.webp" alt="python book"style="width:60%; height:40%">
+                <p>My journey to become a Python expert in 1 year</p>
+            <button id="bbutton">Read Now</button>
             </div>
-            <div class="bposts 2"> The future of ecommerce websites in Ghana <img src="images/shopping.webp" alt="woman with shopping bags">
-                <button>Read Now</button>
+            <div class="bposts1"> <img src="images/shopping.webp" alt="woman with shopping bags"style="width:60%; height:40%"> 
+                <p>The future of ecommerce websites in Ghana</p>
+            <button id="bbutton">Read Now</button>
             </div>
-            <div class="bposts 3"> My favourite design tools that speed my workflow <img src="images/desktop.webp" alt="computer">
-                <button>Read Now</button>
-                </div>
-        </div>
-        <div>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad eum dolorem magnam fuga officiis perspiciatis ipsa at hic laboriosam! Reiciendis!</p>
-        </div>
-        <div class="bottom">
-            <h2>Send  Me A Message</h2>
+            <div class="bposts1"> <img src="images/desktop.webp" alt="computer"style="width:60%; height:40%">
+                <p>My favourite design tools that speed my workflow</p>
+            <button id="bbutton">Read Now</button>
+            </div>
+     </div>
+     <div>
+            <p id="quote">"Do not wait. The time will never be just right.<br> Start where you stand, and work whatever tools <br> you may have at your command and better tools <br> will be found as you go along!"<br> Napoleon Hill</p>
+     </div>
+
+     <h2 id="bp">Send  Me A Message</h2>
+     <div class="bottom">
             <div class="form">
                 <form>
                   <input type="text" placeholder="your name">
-                  <input type="email" placeholder="your email"> 
+                  <input type="email" placeholder="your email"><br>
                   <textarea rows= "5"
                             cols="50">Talk to Me..
                   </textarea> 
-                  <button>SEND YOUR MESSAGE</button>
+     <button id="fbutton">SEND YOUR MESSAGE</button>
                 </form>
             </div>
-            <div class="image"><img src="images/IMG-20240603-WA0013.webp" alt=""></div>
-        </div>
-    </div>
-    <footer class="footer">
-        <p>&copy;2024 My Portfolio. All rights reserved.</p>
-        <ul>
-            <li><img src="images/facebook logo.webp" alt="facebook logo"></li>
-            <li><img src="images/youtube logo.webp" alt="youtube logo"></li>
-            <li><img src="images/twitter logo.webp" alt="twitter logo"></li>
-            <li><img src="images/instagram logo.webp" alt="instagram logo"></li>
-        </ul>
+            <div class="imagef"><img src="images/IMG-20240603-WA0013.webp" alt="" style="width:80%; height:80%"></div>
+     </div>
+    </section>
+<div class="footer">
+        <p class="pfooter">&copy;2024 Nadia Ibrahim Official. All rights reserved.</p>
+        <nav class="list2">
+            <ul class="nobullets2">
+                <li><img src="images/facebook logo.webp" alt="facebook logo"style="width:20px; height:20px"></li>
+                <li><img src="images/youtube logo.webp" alt="youtube logo"style="width:20px; height:20px"></li>
+                <li><img src="images/twitter logo.webp" alt="twitter logo"style="width:20px; height:20px"></li>
+                <li><img src="images/instagram logo.webp" alt="instagram logo"style="width:20px; height:20px"></li>
+            </ul>
+        </nav>
 
-    </footer>
+   </div>
 </body>
 </html>
